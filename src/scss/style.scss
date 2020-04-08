@@ -145,6 +145,7 @@
   }
 }
 
+// секция с синим фоном //
 .create {
   background-repeat: no-repeat;
   background-size: cover;
@@ -268,9 +269,11 @@
   }
 }
 
+// секция(белый фон) с тремя items //
 
-
-.action__inner {
+.action {
+  width: 1920px;
+  max-height: 709px;
   background-size: cover;
   background-color: #fff;
 }

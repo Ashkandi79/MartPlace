@@ -150,7 +150,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 725px;
+  height: 725px;
   position: relative;
   background: -moz-linear-gradient(180deg, rgb(0, 48, 222) 0%, rgb(23, 69, 237) 54%, rgb(46, 90, 251) 100%);
   background: -webkit-linear-gradient(180deg, rgb(0, 48, 222) 0%, rgb(23, 69, 237) 54%, rgb(46, 90, 251) 100%);
@@ -270,12 +270,33 @@
 }
 
 // секция(белый фон) с тремя items //
+.page {
+  background-color: $page;
+  padding: 30px 0px;
+}
+
+.page__grey {
+  background-color: $page__grey;
+}
 
 .action {
-  width: 1920px;
-  max-height: 709px;
-  background-size: cover;
-  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  min-height: 710px;
+}
+
+.box-action {
+  width: 44%;
+  text-align: center;
+}
+
+.box-action__title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.box-action__text {
+  font-size: 16px;
 }
 
 
